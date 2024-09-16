@@ -12,7 +12,7 @@ function Products() {
   };
   useEffect(() => {
     fetchProducts();
-  }, []);
+  }, [fetchProducts]);
   return (
     <div className="container">
       <h2 className="text-center mt-2">Products</h2>

@@ -13,7 +13,7 @@ const Quotes = async () => {
   return (
     <div className="container mt-4">
       {quotes.map((quote) => (
-        <div>
+        <div key={quote}>
           <p>Auther : {quote.author}</p>
           <p>Quote : {quote.quote}</p>
           <hr />
