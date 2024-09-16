@@ -13,7 +13,7 @@ function Footer() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-body-secondary">
-                  Home
+                  Home new
                 </a>
               </li>
               <li className="nav-item mb-2">
